@@ -1,0 +1,92 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputField {
+    width: 80px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.textareaField {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+.coordRow {
+    margin-bottom: 5px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.buttonDisabled {
+    background-color: #aaa !important;
+    cursor: not-allowed !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.loader {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
